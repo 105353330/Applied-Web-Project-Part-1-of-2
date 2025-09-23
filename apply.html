@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply — Digital Services Victoria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="apply.html" aria-current="page">Apply</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Job Application Form</h1>
+
+    <form method="POST" action="formtest.php">
+      <!-- Job Ref -->
+      <label for="jobRef">Job Reference Number</label>
+      <input type="text" id="jobRef" name="jobRef" maxlength="5" required>
+
+      <!-- Names -->
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" maxlength="20" required>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" maxlength="20" required>
+
+      <!-- DOB -->
+      <label for="dob">Date of Birth</label>
+      <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy" required>
+
+      <!-- Gender -->
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </fieldset>
+
+      <!-- Address -->
+      <label for="street">Street Address</label>
+      <input type="text" id="street" name="street" maxlength="40" required>
+
+      <label for="suburb">Suburb/Town</label>
+      <input type="text" id="suburb" name="suburb" maxlength="40" required>
+
+      <label for="state">State</label>
+      <select id="state" name="state" required>
+        <option value="">--Select--</option>
+        <option>VIC</option>
+        <option>NSW</option>
+        <option>QLD</option>
+        <option>NT</option>
+        <option>WA</option>
+        <option>SA</option>
+        <option>TAS</option>
+        <option>ACT</option>
+      </select>
+
+      <label for="postcode">Postcode</label>
+      <input type="text" id="postcode" name="postcode" maxlength="4" required>
+
+      <!-- Contact -->
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" maxlength="12" required>
+
+      <!-- Skills -->
+      <fieldset>
+        <legend>Skills</legend>
+        <label><input type="checkbox" name="skills" value="html"> HTML</label>
+        <label><input type="checkbox" name="skills" value="css"> CSS</label>
+        <label><input type="checkbox" name="skills" value="js"> JavaScript</label>
+        <label><input type="checkbox" name="skills" value="other"> Other skills…</label>
+      </fieldset>
+
+      <label for="otherskills">Other Skills</label>
+      <textarea id="otherskills" name="otherskills" rows="4" cols="40"></textarea>
+
+      <!-- Submit -->
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://christopher-katsoulis.atlassian.net/jira/software/projects/A1WT/boards/1" target="_blank">Jira</a> ·
+      <a href="https://github.com/105353330/Applied-Web-Project-Part-1-of-2" target="_blank">GitHub</a> ·
+      <a href="mailto:info@digitalservicesvictoria.com.au">info@digitalservicesvictoria.com.au</a>
+    </p>
+  </footer>
+</body>
+</html>
