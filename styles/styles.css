@@ -1,0 +1,35 @@
+/*
+
+filename: [styles.css]
+
+author: [Patrick Ward]
+
+created: [23/09/2025]
+
+last modified: [23/09/2025]
+
+description: [Applied-Web-Project]
+
+*/
+
+aside {
+    width: 25%;
+    float: right;
+    border: 2px solid #04003e;
+    margin: 5px;
+    padding: 10px;
+}
+
+h1 {
+    color: #04003e;
+    text-align: center;
+}
+
+h2 {
+    color: #0a0361;
+    text-align: left;
+}
+
+section {
+    background-color: #f4f3ff;
+}
