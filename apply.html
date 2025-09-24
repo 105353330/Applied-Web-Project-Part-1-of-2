@@ -4,26 +4,31 @@
   <meta charset="UTF-8"> <!-- Character encoding = UTF-8 (covers most characters) -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page scale properly on phones -->
   <title>Apply — Digital Services Victoria</title> <!-- Title shown on browser tab -->
-  <link rel="stylesheet" href="styles.css"> <!-- Connects external CSS file for styling -->
+  <link rel="stylesheet" href="styles/styles.css"> <!-- Connects external CSS file for styling -->
 </head>
 
 <body> <!-- All visible page content starts here -->
 
   <!-- Header with navigation menu -->
-  <header>
-    <nav>
-      <ul> <!-- Unordered list used for menu links -->
-        <li><a href="index.html">Home</a></li> <!-- Link to home page -->
-        <li><a href="jobs.html">Jobs</a></li> <!-- Link to jobs page -->
-        <li><a href="apply.html" aria-current="page">Apply</a></li> <!-- Current page (Apply) -->
-        <li><a href="about.html">About</a></li> <!-- Link to about page -->
-      </ul>
-    </nav>
-  </header>
-
   <!-- Main content section -->
   <main>
-    <h1>Job Application Form</h1> <!-- Main heading -->
+    <header class="header">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12em;">
+      <div class="logo-container">
+        <img src="images/dsv-logo.png" alt="Digital Services Victoria Logo" class="logo" width="360" height=auto>
+        <h1>Available Positions</h1>
+      </div>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="apply.html">Apply</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="mailto:info@digitalservicesvictoria.com.au">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
     <!-- Form begins -->
     <form method="POST" action="formtest.php"> <!-- POST sends form data to formtest.php -->

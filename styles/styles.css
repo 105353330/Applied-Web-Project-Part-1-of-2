@@ -11,12 +11,51 @@ last modified: [23/09/2025]
 description: [Applied-Web-Project]
 
 */
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
 }
-h1,h2{
+
+header {
+    background-color: #062039;
+    display: flex;                  
+    align-items: center; 
+             
+}
+
+header h1 {
+    text-align: center;
+}
+.logo-container {
+    display: flex;
+    gap: 10em;
+    align-items: center;
+    background-color: #062039;
+    color: #f0f0f0;        
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.2em 1.5em;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+
+h1,
+h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 aside {
     width: 25%;
     float: right;
@@ -24,25 +63,13 @@ aside {
     margin: 5px;
     padding: 10px;
 }
-.menu {
-    display: inline-block;
-}
 
-nav a {
-    text-decoration: none;
-    padding:0.3em 1.5em;
-    border: 4px solid #ccc;
-    background-color: #ffffff;
-    color: black;
-}
-nav a:hover{
-    background-color: #ccc;
-}
 
 #title {
     color: #000000;
     background-color: #ffffff;
 }
+
 h1 {
     text-align: center;
 }
