@@ -7,8 +7,8 @@
   --primary-dark:  #0f2b4d;
 
   --secondary-color: #2f855a;
-  --accent-color:   #dd6b20;
-  --accent-light:   #ed8936;
+  --accent-color:   #cf5d28bb;
+  --accent-light:   #df8135;
 
   --text-color:  #2d3748;
   --text-light:  #4a5568;
@@ -18,7 +18,7 @@
   --white:       #ffffff;
 
   --success-color: #38a169;
-  --warning-color: #dd6b20;
+  --warning-color: #da6517;
   --error-color:   #e53e3e;
 
   --border-color: #e5e7eb;
@@ -110,7 +110,7 @@ body#home .hero p{
   text-shadow:1px 1px 2px rgba(0,0,0,.5);
 }
 body#home .cta-button{
-  display:inline-block; padding:1rem 2rem; background:var(--accent-color); color:#fff;
+  display:inline-block; padding:1rem 2rem; background:var(--accent-color); color:#faf4f4;
   text-decoration:none; border-radius:var(--radius); font-weight:700; letter-spacing:.02em;
   transition:var(--transition); box-shadow:var(--shadow);
 }
