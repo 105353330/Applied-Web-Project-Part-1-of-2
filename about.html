@@ -3,17 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet the Digital Services Victoria team. Learn about our members, roles, and shared reflections.">
+  <meta name="author" content="Digital Services Victoria Team">
   <title>About Us — Digital Services Victoria</title>
   <link rel="stylesheet" href="styles/styles.css">
 
+  <!-- Embedded CSS (added) -->
+  <style>
+    .quote-highlight {
+      background-color: #fffae6;
+      border-left: 4px solid #df8135;
+      padding: 0.5rem;
+      margin: 0.75rem 0;
+      font-style: italic;
+    }
+    table th[scope="col"] {
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body class="about">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="header">
     <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
       <div class="logo-container">
-        <img src="images/dsv-logo.jpg" alt="Digital Services Victoria Logo" class="logo">
+        <img src="images/dsv-logo.jpg" alt="Digital Services Victoria logo" class="logo">
         <h1>Digital Services Victoria</h1>
       </div>
       <nav class="main-nav" aria-label="Primary">
@@ -29,7 +45,6 @@
   </header>
 
   <main id="main">
-  
     <section class="hero hero-about">
       <div class="container">
         <h2>About Digital Services Victoria</h2>
@@ -70,8 +85,8 @@
         </div>
 
         <figure class="group-photo">
-          <img src="images/group-photo.jpg" alt="Digital Services Victoria Team" width="600" height="600">
-          <figcaption>Team Members: Christopher (left), Patrick (middle), Shehan (right)</figcaption>
+          <img src="images/group-photo.jpg" alt="Digital Services Victoria team photo" width="600" height="600">
+          <figcaption>Team Members: Christopher (left), Patrick (middle), Shehan (right). Image source: © DSV 2025.</figcaption>
         </figure>
 
         <section class="member-contributions" aria-labelledby="member-contrib-heading">
@@ -87,9 +102,9 @@
                 <dt>Role</dt>
                 <dd>Index page & About page</dd>
                 <dt>Quote</dt>
-                <dd><q>Less is more.</q></dd>
+                <dd class="quote-highlight"><q>Less is more.</q></dd>
                 <dt>Language</dt>
-                <dd><span lang="en">English</span> (<span lang="si">Sinhala</span>)</dd>
+                <dd><span lang="en">English</span> (<span lang="si">සිංහල</span>)</dd>
               </dl>
             </div>
 
@@ -102,9 +117,9 @@
                 <dt>Role</dt>
                 <dd>Jobs Page & Styles</dd>
                 <dt>Quote</dt>
-                <dd><q>Keep it simple.</q></dd>
+                <dd class="quote-highlight"><q>Keep it simple.</q></dd>
                 <dt>Language</dt>
-                <dd><span lang="en">English</span></dd>
+                <dd><span lang="en">English</span> (<span lang="fr">Francais</span>)</dd>
               </dl>
             </div>
 
@@ -117,9 +132,9 @@
                 <dt>Role</dt>
                 <dd>Apply page & Jira</dd>
                 <dt>Quote</dt>
-                <dd><q>Nice and Calm.</q></dd>
+                <dd class="quote-highlight"><q>Nice and Calm.</q></dd>
                 <dt>Language</dt>
-                <dd><span lang="en">English</span></dd>
+                <dd><span lang="en">English</span> (<span lang="el">Greek</span>)</dd>
               </dl>
             </div>
 
@@ -161,6 +176,11 @@
               </tr>
             </tbody>
           </table>
+        </section>
+
+        <section class="reflection">
+          <h2>Reflection</h2>
+          <p>This project enhanced our understanding of accessible design, semantic HTML, and responsive CSS. Working collaboratively strengthened our skills in version control and project management through Jira.</p>
         </section>
 
       </div>
